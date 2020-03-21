@@ -1,0 +1,8 @@
+/usr/bin/kcoin-cli		--	gen_context(system_u:object_r:kcoin_exec_t,s0)
+/usr/sbin/kcoind		--	gen_context(system_u:object_r:kcoin_exec_t,s0)
+/usr/lib(64)?/kcoin/kcoind		--	gen_context(system_u:object_r:kcoin_exec_t,s0)
+
+/etc/kcoin(/.*)?		gen_context(system_u:object_r:kcoin_conf_t,s0)
+/var/lib/kcoin(/.*)?		gen_context(system_u:object_r:kcoin_var_lib_t,s0)
+
+(/var)?/run/kcoind(/.*)?   gen_context(system_u:object_r:kcoin_var_run_t,s0)

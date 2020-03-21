@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=KCOIN Core
+Comment=KCOIN P2P Cryptocurrency
+Comment[fr]=KCOIN, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=KCOIN, eşten eşe kriptografik sanal para birimi
+Exec=kcoin-qt %u
+Terminal=false
+Type=Application
+Icon=kcoin128
+MimeType=x-scheme-handler/kcoin;
+Categories=Office;Finance;
+StartupWMClass=Kcoin-qt
